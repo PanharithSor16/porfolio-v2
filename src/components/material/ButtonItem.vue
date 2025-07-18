@@ -5,8 +5,7 @@ defineProps({
 
 </script>
 <template>
-    <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  grid-cols-1 gap-20 sm:px-24 px-8 items-center">
-        {/* Button 1 */}
+   
         <div className="flex justify-center">
           <button className="relative inline-flex items-center justify-center px-5 py-2.5 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
             <span className="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-[#4ca1af] rounded-full blur-md ease"></span>
@@ -17,5 +16,5 @@ defineProps({
             <span className="relative text-white">{{ btnName }}</span>
           </button>
         </div>
-    </div>
+   
 </template>
